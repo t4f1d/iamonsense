@@ -14,7 +14,7 @@ Our paper investigates online handwriting classification which preliminary step 
 
 Without datasets that contain proper data and information at all levels, it is insufficient to do a multi-level online handwriting classification. Consequently, we need to prepare, enhance, and enrich the datasets to be able to perform multi-level classification.
 
-![Datasets Comparison](/https://github.com/t4f1d/iamonsense/blob/main/plots/datasets.png)
+![Datasets Comparison](https://github.com/t4f1d/iamonsense/blob/main/plots/datasets.png)
 
 The contributions of this research establish a foundation and serve as a baseline for systematic and empirical evaluation of online handwriting classification. We provide a new enhancement dataset for the research community, the dataset called `IAMonSense`. It can be used for graph models or deep learning models with different data structure. It contains multi-level information from stroke, word, and line levels. This research has highlighted the importance of line level in the classification problem.
 
@@ -121,13 +121,13 @@ IAMonSense/
 
 # Results
 
-![Performance Analysis Deep Learning Model](/https://github.com/t4f1d/iamonsense/blob/main/plots/result1.png)
+![Performance Analysis Deep Learning Model](https://github.com/t4f1d/iamonsense/blob/main/plots/result1.png)
 
-![Performance Analysis Graph Model](/https://github.com/t4f1d/iamonsense/blob/main/plots/result2.png)
+![Performance Analysis Graph Model](https://github.com/t4f1d/iamonsense/blob/main/plots/result2.png)
 
-![Performance Analysis Transformer Model](/https://github.com/t4f1d/iamonsense/blob/main/plots/result3.png)
+![Performance Analysis Transformer Model](https://github.com/t4f1d/iamonsense/blob/main/plots/result3.png)
 
-![State-of-the-art Comparison](/https://github.com/t4f1d/iamonsense/blob/main/plots/result4.png)
+![State-of-the-art Comparison](https://github.com/t4f1d/iamonsense/blob/main/plots/result4.png)
 
 
 <sub><strong>References:</strong></sub>
