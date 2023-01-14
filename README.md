@@ -4,15 +4,13 @@
 > 01 2023: Initial commit
 
 # About
-This repository is the implementation of Multi-level Handwriting Classification using Spatio-temporal Information, as described in the following paper:
-
-IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information, by A. Mustafid, J. Younas, P. Lukowicz, S. Ahmed.
+This repository is the implementation of Multi-level Handwriting Classification using Spatio-temporal Information, as described in the following paper: **IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information**, by A. Mustafid, J. Younas, P. Lukowicz, S. Ahmed.
 
 Our paper investigates online handwriting classification which preliminary step for recognition systems and others applications. The problem in this research is, in which level is good for the classification. Each level has benefits and drawbacks. However, there has been little discussion on it and few researchers have addressed the problem because the datasets are also not comparable at all levels. Thus, our research aimed to enhance the datasets and also broaden current knowledge of classification online-handwriting in multi-classes and in multi-levels.
 
 <img src="https://github.com/t4f1d/iamonsense/blob/main/plots/multilevel.png" alt="Data Multilevel" width="600"/>
 
-Without datasets that contain proper data and information at all levels, it is insufficient to do a multi-level online handwriting classification. Consequently, we need to prepare, enhance, and enrich the datasets to be able to perform multi-level classification.
+Without datasets that contain proper data and information at all levels, it is insufficient to do a multi-level online handwriting classification. Consequently, we need to prepare, enhance, and enrich the datasets to be able to perform multi-level classification. We enhance the existing online-handwriting dataset (SenseThePen, IAM-OnDB, and IAMonDo) to be able to do multi-level online handwriting classification.
 
 <img src="https://github.com/t4f1d/iamonsense/blob/main/plots/datasets.png" alt="Datasets Comparison" width="600"/>
 
