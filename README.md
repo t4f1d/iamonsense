@@ -1,10 +1,14 @@
 # IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information
 
 # Updates
+> 06 2023: Paper Published at IJDAR \
 > 01 2023: Initial commit
 
 # About
 This repository is the implementation of Multi-level Handwriting Classification using Spatio-temporal Information, as described in the following paper: **IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information**, by A. Mustafid, J. Younas, P. Lukowicz, S. Ahmed.
+
+Link Paper : https://link.springer.com/article/10.1007/s10032-023-00433-y
+<img width="528" alt="paper-iamonsense" src="https://github.com/t4f1d/iamonsense/assets/4054172/45ea5665-c165-46a7-a25a-a0e634a2531f">
 
 Our paper investigates online handwriting classification which preliminary step for recognition systems and others applications. The problem in this research is, in which level is good for the classification. Each level has benefits and drawbacks. However, there has been little discussion on it and few researchers have addressed the problem because the datasets are also not comparable at all levels. Thus, our research aimed to enhance the datasets and also broaden current knowledge of classification online-handwriting in multi-classes and in multi-levels.
 
@@ -19,17 +23,17 @@ The contributions of this research establish a foundation and serve as a baselin
 
 <sub><strong>References:</strong></sub>
 
-<sup>
+<sup><sup>
 [14] J. Younas, M. I. Malik, S. Ahmed, F. Shafait, and P. Lukowicz, "Sense the pen: Classification of online handwritten sequences (text, mathematical expression, plot/graph)", Expert Systems with Applications, vol. 172, p. 114 588, 2021. doi: https://doi.org/10.1016/j.eswa.2021.114588.
-</sup><br>
-
-<sup>
+</sup></sup>
+\
+<sup><sup>
 [27] E. Indermühle, M. Liwicki, and H. Bunke, "IAMonDo-Database: An Online Handwritten Document Database with Non-Uniform Contents", in Proceedings of the 9th IAPR International Workshop on Document Analysis Systems, ser. DAS ’10, Boston, Massachusetts, USA: Association for Computing Machinery, 2010, pp. 97–104. doi: https://doi.org/10.1145/1815330.1815343.
-</sup><br>
-
-<sup>
+</sup></sup>
+\
+<sup><sup>
 [28] M. Liwicki and H. Bunke, "IAM-OnDB - an On-Line English Sentence Database Acquired from Handwritten Text on a Whiteboard", in Proceedings of the Eighth International Conference on Document Analysis and Recognition, ser. ICDAR ’05, USA: IEEE Computer Society, 2005, pp. 956–961. doi: https://doi.org/10.1109/ICDAR.2005.132.
-</sup>
+</sup></sup>
 
 
 # Dataset
@@ -134,21 +138,21 @@ IAMonSense/
 
 <sub><strong>References:</strong></sub>
 
-<sup>
+<sup><sup>
 [10]  J.-Y. Ye, Y.-M. Zhang, Q. Yang, and C.-L. Liu, “Contextual stroke classification in online handwritten documents with edge graph attention networks”, SN Computer Science, vol. 1, no. 3, pp. 1–13, 2020. doi: https://doi.org/10.1007/s42979-020-00177-0.
-</sup><br>
-
-<sup>
+</sup></sup>
+\
+<sup><sup>
 [14]  J. Younas, M. I. Malik, S. Ahmed, F. Shafait, and P. Lukowicz, “Sense the pen: Classification of online handwritten sequences (text, mathematical expression, plot/graph)”, Expert Systems with Applications, vol. 172, p. 114 588, 2021. doi: https://doi.org/10.1016/j.eswa.2021.114588.
-</sup><br>
-
-<sup>
+</sup></sup>
+\
+<sup><sup>
 [15]  J. Younas, S. Fritsch, G. Pirkl, S. Ahmed, M. I. Malik, F. Shafait, and P. Lukowicz, “What Am I Writing: Classification of On-Line Handwritten Sequences.”, in Intelligent Environments (Workshops), ser. Ambient Intelligence and Smart Environments, vol. 23, IOS Press, 2018, pp. 417–426.
-</sup><br>
-
-<sup>
+</sup></sup>
+\
+<sup><sup>
 [34]  I. Degtyarenko, I. Deriuga, A. Grygoriev, S. Polotskyi, V. Melnyk, D. Zakharchuk, and O. Radyvonenko, “Hierarchical Recurrent Neural Network for Handwritten Strokes Classification”, in ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021, pp. 2865–2869. doi: https://doi.org/10.1109/ICASSP39728.2021.9413412.
-</sup>
+</sup></sup>
 
 
 
@@ -158,14 +162,14 @@ This project is licensed under the MIT License. See LICENSE for more details.
 
 ## Citations
 ```shell
-@article{iamonsense,
-    Title={IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information},
-    Author={Mustafid, Ahmad and Younas, Junaid and Lukowicz, Paul and Ahmed, Sheraz},
-    DOI={10.21203/rs.3.rs-2275927/v1},
-    Publisher={Research Square},
-    Year={2022},
-    URL={https://doi.org/10.21203/rs.3.rs-2275927/v1},
-}
+
+@article{Mustafid2023, 
+    title={IAMonSense: Multi-level handwriting classification using spatiotemporal information}, 
+    DOI={10.1007/s10032-023-00433-y}, 
+    journal={International Journal on Document Analysis and Recognition (IJDAR)}, 
+    author={Mustafid, Ahmad and Younas, Junaid and Lukowicz, Paul and Ahmed, Sheraz}, 
+    year={2023}
+} 
 ```
 
 ## Acknowledgements
