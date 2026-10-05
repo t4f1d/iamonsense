@@ -1,6 +1,7 @@
 # IAMonSense: Multi-level Handwriting Classification using Spatio-temporal Information
 
 # Updates
+> 10 2026: Reupload the dataset \
 > 06 2023: Paper Published at IJDAR \
 > 01 2023: Initial commit
 
@@ -39,7 +40,11 @@ The contributions of this research establish a foundation and serve as a baselin
 # Dataset
 ## Download
 
-You can download the dataset from [here (SeaFile)](https://seafile.rlp.net/d/2be24d377f3342ef82ad/) or [here (GDrive)](https://drive.google.com/drive/folders/1RxMVkQiNu5fh-R9TZeI_ez_jQv27Adxu?usp=share_link).
+You can download the dataset from 
+~[here (SeaFile)](https://seafile.rlp.net/d/2be24d377f3342ef82ad/)~ ,
+~[here (GDrive)](https://drive.google.com/drive/folders/1RxMVkQiNu5fh-R9TZeI_ez_jQv27Adxu?usp=share_link)~ ,
+[here (GDrive 1)](https://drive.google.com/drive/folders/15YD1gfyY_Bj9359erT9B32W3fxSw732T?usp=sharing) or 
+[here (GDrive 2)](https://drive.google.com/drive/folders/1HTz0VLg85P1usl-lrXYY3B3vbxKhwCde?usp=sharing). 
 
 ## Structure
 The structure of the `IAMonSense` dataset,
@@ -99,16 +104,7 @@ IAMonSense/
 │        ├─ z01-000-03.csv
 │        ├─ ...
 │        └─ z01-000z-08.csv
-│
-├─ SenseThePen_train.csv
-├─ SenseThePen_val.csv
-├─ SenseThePen_test.csv
-├─ IAMonDo_train.csv
-├─ IAMonDo_val.csv
-├─ IAMonDo_test.csv
-├─ IAM-OnDB_train.csv
-├─ IAM-OnDB_val.csv
-└─ IAM-OnDB_test.csv
+
 ```
 
 
